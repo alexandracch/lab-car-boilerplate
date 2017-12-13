@@ -1,1 +1,47 @@
 /* Los estilos de tu proyecto */
+
+.nav-fonts {
+    color: rgb(129, 129, 129);
+}
+
+
+
+
+    /* .hero{
+        background-image: url('../assets/images/taxi.jpg');
+        background-size:100% auto;
+        background-position-x: -75%;
+        background-attachment: fixed;
+        height: 400px;
+        background-repeat: no-repeat; */
+ 
+/* // Extra small devices (portrait phones, less than 576px) */
+        @media (max-width: 575px) {
+            .hero{
+                background-image: url('../assets/images/taxi.jpg');
+                background-size:100% auto;
+                background-position-x: -75%;
+                background-attachment: fixed;
+                height: 400px;
+                background-repeat: no-repeat;
+            }
+         }
+        
+/* // Small devices (landscape phones, less than 768px) */
+        @media (max-width: 767px) { 
+            .hero{
+                background-image: url('../assets/images/taxi.jpg');
+                background-size:100% auto;
+                background-position-x: -75%;
+                background-attachment: fixed;
+                height: 400px;
+                background-repeat: no-repeat;
+            }
+        }
+        
+ /* // Medium devices (tablets, less than 992px) */
+        @media (max-width: 991px) { }
+        
+/* // Large devices (desktops, less than 1200px) */
+        @media (max-width: 1199px) { ... }
+        
