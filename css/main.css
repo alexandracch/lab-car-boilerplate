@@ -4,16 +4,34 @@
     color: rgb(129, 129, 129);
 }
 
+a {
+    background-color: white;
+    color: black;
+}
+/* Container padre */
+div.container-fluid.col-xs-12.col-sm-12.col-md-12.col-lg-12 {
+    padding-left: 0px;
+    padding-right: 0px;
+}
 
+.jumbotron {
+    background-color: #ffc107;
+    border-radius: 0%;
+    color: white;
+}
 
+.logo-blanco {
+    width: 5%;
+    height: auto;
+}
 
-    /* .hero{
-        background-image: url('../assets/images/taxi.jpg');
-        background-size:100% auto;
-        background-position-x: -75%;
-        background-attachment: fixed;
-        height: 400px;
-        background-repeat: no-repeat; */
+.app {
+    background-color: #ffc107;
+    border-color: white;
+}
+.container {
+    background-color: #ffc107;
+}
  
 /* // Extra small devices (portrait phones, less than 576px) */
         @media (max-width: 575px) {
@@ -21,10 +39,15 @@
                 background-image: url('../assets/images/taxi.jpg');
                 background-size:100% auto;
                 background-position-x: -75%;
+                background-position-y: -75%;
                 background-attachment: fixed;
-                height: 400px;
+                height: 48%;
                 background-repeat: no-repeat;
+                display: flex;
+                /* align-items:center; */
+                justify-content:flex-end;
             }
+            
          }
         
 /* // Small devices (landscape phones, less than 768px) */
@@ -36,12 +59,30 @@
                 background-attachment: fixed;
                 height: 400px;
                 background-repeat: no-repeat;
+                display: flex;
+                /* align-items:center; */
+                justify-content:flex-start:
             }
         }
         
+
+        display: flex;
+        align-items:center;
+        justify-content:flex-end;
  /* // Medium devices (tablets, less than 992px) */
         @media (max-width: 991px) { }
         
 /* // Large devices (desktops, less than 1200px) */
         @media (max-width: 1199px) { ... }
-        
+
+
+/* display: flex;
+align-items:center;
+justify-content:flex-end; */
+    /* .hero{
+        background-image: url('../assets/images/taxi.jpg');
+        background-size:100% auto;
+        background-position-x: -75%;
+        background-attachment: fixed;
+        height: 400px;
+        background-repeat: no-repeat; */        
