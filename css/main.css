@@ -119,7 +119,26 @@
     justify-content: center;
     align-items: center;
 }
+/*Footer*/
+.labcar-footer {
+    background-color: rgb(43,43,43);
+    color: white;
+    padding: 2rem;
+}
+.list-group {
+    list-style: none;
+    color: white;
+    padding: 2rem;
+}
 
+li {
+    padding: 1rem;
+}
+
+.stores {
+    padding: 1rem;
+    width: 15rem;
+}
 /* Reautilizables */
 .button-style {
     background-color: white;
@@ -178,19 +197,4 @@
         @media (max-width: 991px) { }
         
 /* // Large devices (desktops, less than 1200px) */
-        @media (max-width: 1199px) { ... }
-
-
-        /* display: flex;
-        align-items:center;
-        justify-content:flex-end; */
-/* display: flex;
-align-items:center;
-justify-content:flex-end; */
-    /* .hero{
-        background-image: url('../assets/images/taxi.jpg');
-        background-size:100% auto;
-        background-position-x: -75%;
-        background-attachment: fixed;
-        height: 400px;
-        background-repeat: no-repeat; */        
+        @media (max-width: 1199px) { ... }         
