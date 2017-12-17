@@ -10,11 +10,11 @@
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-   <!--Header(movile firts)-->
+<!--Header(movile firts)-->
    <nav class="navbar navbar-default">
-      <div class="container-fluid col-xs-12 col-sm-12 col-md-12 col lg-12" style="padding-left: 0px; padding-right: 0px">
+    <div class="container col-xs-12 col-sm-12 col-md-12 col lg-12" style="padding-left: 0px; padding-right: 0px">
         <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
+        <div class="navbar-header" style="padding: 2rem">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
@@ -23,7 +23,7 @@
           </button>
           <div class="navbar-header">
               <a class="navbar-brand" href="#">
-                <img alt="Brand" src="assets/images/logoForma.png">
+                <img class="logo-forma" alt="Brand" src="assets/images/logoForma.png">
               </a>
             </div>
         </div>
@@ -35,17 +35,17 @@
             <li><a href="#">Inicia sesión</a></li>
           </ul>
         </div>
-    <!-- Termino del navbar -->
-      <!-- Menu principal -->
-      <section id="principal-menu">
-        <div class="container-fluid hero">
-          <div class="row">
+<!-- Termino del navbar -->
+  <!-- Menu principal -->
+  <section id="principal-menu">
+    <div class="container-fluid hero">
+      <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12 col lg-12">
             <aside class="jumbo view-mobile">
-                <div class="jumbotron">
+                <div class="jumbotron jumbotron-colors">
                     <h1 class="display-3">Comienza a viajar <br> con 
-                      <img class="logo blanco"  src="assets/images/logoBlanco.png">
-                    <a href="#" class="btn">Descarga el app</a>
+                      <img class="logo-blanco"  src="assets/images/logoBlanco.png"><br>
+                    <a href="#" class="btn button-style">Descarga el app</a>
                     </h1>
                   </div>
             </aside>
@@ -63,35 +63,56 @@
       <!-- fin del mune principal -->
       <!--App-->
       <section id="app-presentation">
-          <div class="container">
+          <div class="container container-app">
             <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-12 col lg-12">
-                  <div class="app">
-                      <h3>La nueva app</h3>
-                      <img class="logo blanco"  src="assets/images/iPhone6Plus.png">
-                  </div>
+                    <div class="jumbo-tranparent">
+                        <div class="app">
+                            <h3 class="text-center">La nueva app</h3> <br>
+                            <img class="text-center iphone"  src="assets/images/iPhone6Plus.png">
+                        </div>
+                    </div>
+                    <div class="text-app">
+                      <h5>Llega a tu destino aún más rápido</h5>
+                    </div>
                 </div>
             </div>
           </div>
       </section>
       <!--fin app-->
-      <section>
-        <div class="container">
+      <section id="info-app">
+        <div class="container container-conduce">
           <div class="row">
               <div class="col-xs-12 col-sm-12 col-md-12 col lg-12">
-                  <div class="jumbotron">
-                      <h3 class="display-3">Conduce cuando quieras</h3>
-                      <h5>Labcar es una opción flexible para alcanzar tus metas financieras</h5>
-                      <a href="#" class="btn">Conviértete en conductor</a>
-                      </h1>
+                  <div class="jumbo-tranparent">
+                    <div class="jumbotron jumbotron-app">
+                        <h3 class="display-3">Conduce cuando quieras</h3>
+                        <h5>Labcar es una opción flexible para alcanzar tus metas financieras</h5>
+                        <a href="#" class="btn button-lab ">Conviértete en conductor</a>
                     </div>
+                  </div>
               </div>
           </div>
         </div>
       </section>
+      
     <!--Google maps-->
+    <section id="rates">
+        
+        <h3>Tarifas</h3>
+        <h5>Consulta las tarifas LabCar aquí</h5>
+
+    </section>
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3900.7963264196605!2d-77.02287068563479!3d-12.126083691414514!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c8033c4f960d%3A0xb1090a5c19afced4!2sLaboratoria!5e0!3m2!1ses-419!2spe!4v1513510318039" width="250" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
     <!---fin googlemaps-->
+
+
+
+
+
+
+
+
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
       crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
