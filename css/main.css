@@ -76,7 +76,9 @@
     border: transparent;
     border-radius: 0px;
 }
-
+.input-group {
+    padding:2rem;
+}
 .form-control {
     padding: 6px 12px;
     font-size: 14px;
@@ -93,6 +95,7 @@
 .form-control::-moz-placeholder { color: white; }  /* Mozilla Firefox 19+ */
 .form-control:-ms-input-placeholder { color: white; }  /* Internet Explorer 10-11 */
 .form-control::-ms-input-placeholder { color: white; }  /* Microsoft Edge */
+
 .googlemaps {
     display: flex;
     flex-direction: column;
@@ -102,14 +105,26 @@
     
 }
 
+.button-style-2 {
+    background-color: white;
+    color: black;
+    margin: 2rem;
+    padding: 1rem 2.5rem;
+    font-weight: 2rem;
+}
 .rates {
     padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Reautilizables */
 .button-style {
     background-color: white;
     color: black;
+
 }
 
 .lab-colors {
