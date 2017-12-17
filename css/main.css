@@ -63,26 +63,70 @@
     border-radius: 6px;
 }
 
+/* Tarifas */
+
+.input-group-addon {
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1;
+    color: white;
+    text-align: center;
+    background-color: transparent;
+    border: transparent;
+    border-radius: 0px;
+}
+
+.form-control {
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color:white;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid white;
+    border-radius: 7px;
+}
+
+.form-control::-webkit-input-placeholder { color: white; }  /* WebKit, Blink, Edge */
+.form-control:-moz-placeholder { color: white; }  /* Mozilla Firefox 4 to 18 */
+.form-control::-moz-placeholder { color: white; }  /* Mozilla Firefox 19+ */
+.form-control:-ms-input-placeholder { color: white; }  /* Internet Explorer 10-11 */
+.form-control::-ms-input-placeholder { color: white; }  /* Microsoft Edge */
+.googlemaps {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 1rem;
+    
+}
+
+.rates {
+    padding: 3rem;
+}
+
 /* Reautilizables */
 .button-style {
     background-color: white;
     color: black;
 }
 
-.button-lab {
+.lab-colors {
     background-color: #ffc107;
     color: white;
 }
+
 
 
 /* // Extra small devices (portrait phones, less than 576px) */
         @media (max-width: 575px) {
             .hero{
                 background-image: url('../assets/images/taxi.jpg');
-                background-size:100%;
-                background-position-y: -65%;
-                height: 48vh;
                 background-repeat: no-repeat;
+                background-position: center 89%; 
+                background-size: cover;
+                height: 68vh;
                 display: flex;
                 align-items:center;
                 justify-content:flex-end;
@@ -99,11 +143,10 @@
         @media (max-width: 767px) { 
             .hero{
                 background-image: url('../assets/images/taxi.jpg');
-                background-size:100% auto;
-                background-position-x: -75%;
-                background-attachment: fixed;
-                height: 400px;
                 background-repeat: no-repeat;
+                background-position: center 89%; 
+                background-size: cover;
+                height: 68vh;
                 display: flex;
                 align-items:center;
                 justify-content:flex-end;
