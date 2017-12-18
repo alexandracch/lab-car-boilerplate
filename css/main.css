@@ -1,5 +1,7 @@
 /* Los estilos de tu proyecto */
-
+body {
+    font-family: 'Lato', sans-serif;
+}
 .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
     padding-right: 0px;
     padding-left: 0px;
@@ -9,36 +11,26 @@
 .logo-forma {
     width: 15vh;
 }
-/**/
+
+/*Presentation*/
 .jumbotron-colors {
-    background-color: #ffc107;
+    background-color: #f7b617;
     border-radius: 0%;
     color: white;
     border-radius: 0px;
 }
 
-.jumbo-tranparent {
-    padding: 20px;
-    color: white;
-}
-/* La nueva app */
-.app {
-    background-color: #ffc107;
-    outline: 2px solid white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; 
-    padding: 5vh;
-}
 
-.iphone {
+/* La nueva app */
+
+
+/* .iphone {
     width: 30vh;
     position: center;
-}
+} */
 
 .container-app {
-    background-color:  #ffc107;
+    background-color:  #f7b617;
     color: white;
 }
 
@@ -70,7 +62,7 @@
     font-size: 14px;
     font-weight: 400;
     line-height: 1;
-    color: white;
+    /* color: white; */
     text-align: center;
     background-color: transparent;
     border: transparent;
@@ -83,18 +75,18 @@
     padding: 6px 12px;
     font-size: 14px;
     line-height: 1.42857143;
-    color:white;
+    /* color:white; */
     background-color: transparent;
     background-image: none;
     border: 1px solid white;
     border-radius: 7px;
 }
 
-.form-control::-webkit-input-placeholder { color: white; }  /* WebKit, Blink, Edge */
-.form-control:-moz-placeholder { color: white; }  /* Mozilla Firefox 4 to 18 */
-.form-control::-moz-placeholder { color: white; }  /* Mozilla Firefox 19+ */
-.form-control:-ms-input-placeholder { color: white; }  /* Internet Explorer 10-11 */
-.form-control::-ms-input-placeholder { color: white; }  /* Microsoft Edge */
+/* .form-control::-webkit-input-placeholder { color: white; }  WebKit, Blink, Edge */
+/* .form-control:-moz-placeholder { color: white; }  Mozilla Firefox 4 to 18 */
+/* .form-control::-moz-placeholder { color: white; }  /* Mozilla Firefox 19+ */
+/* .form-control:-ms-input-placeholder { color: white; }  Internet Explorer 10-11 */
+/* .form-control::-ms-input-placeholder { color: white; }  Microsoft Edge */ 
 
 .googlemaps {
     display: flex;
@@ -108,10 +100,11 @@
 .button-style-2 {
     background-color: white;
     color: black;
-    margin: 2rem;
-    padding: 1rem 2.5rem;
+    padding: 2rem 2.5rem;
     font-weight: 2rem;
+    margin: 2rem;
 }
+
 .rates {
     padding: 3rem;
     display: flex;
@@ -123,78 +116,167 @@
 .labcar-footer {
     background-color: rgb(43,43,43);
     color: white;
-    padding: 2rem;
+    padding: 4rem 2rem;
 }
 .list-group {
     list-style: none;
     color: white;
     padding: 2rem;
 }
+/* Reautilizables */
+.button-style {
+    background-color: white;
+    color: black;
+    margin: 2rem;
+}
+
+.lab-colors {
+    background-color: #f7b617;
+    color: white;
+}
+
+.jumbo-tranparent {
+    padding: 20px;
+    color: white;
+}
+
+.view-mobile {
+    display: block;
+}
+
+.view-desktop{
+    display: none;
+}
+
+.hero{
+    background-image: url('../assets/images/taxi.jpg');
+    background-repeat: no-repeat;
+    background-position: center 89%; 
+    background-size: cover;
+    height: 68vh;
+    display: flex;
+    align-items:center;
+    justify-content:flex-end;
+}
+
+
+/* Comienza a viajar */
+.stores {
+    padding: 1rem;
+    width: 15rem;
+}
 
 li {
     padding: 1rem;
 }
 
-.stores {
-    padding: 1rem;
-    width: 15rem;
-}
-/* Reautilizables */
-.button-style {
-    background-color: white;
-    color: black;
-
+.view-mobile {
+    display: block;
 }
 
-.lab-colors {
+.view-desktop {
+    display: none;
+}
+
+/* Comienza a viajar */
+.logo-blanco {
+    width: 90px;
+}
+
+.app {
     background-color: #ffc107;
+    outline: 2px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    padding: 5vh;
+}
+
+
+/* MODAL */
+
+.modal-content {
+    padding: 1rem;
+}
+.modal-styles {
+    background-color: #25dbb8;
+}
+.modal-header, .modal-body, .text-new-account {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-container {
+    background-color: whitesmoke;
+    width: 35vh;
+}
+
+.container-user {
+    border-radius: 0.5rem;
+    width: 40vh;
+    background-color: whitesmoke;
+    color: black;
+}
+
+.input-group-addon {
+ background-color: rgb(199, 197, 197);
+ color: gray;
+ border: 1px solid rgb(192, 192, 192);
+}
+
+.form-control {
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: gray;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid  rgb(192, 192, 192);
+    border-radius: 7px;
+}
+a {
+    color: rgb(196, 43, 43);
+}
+.text-click {
+    padding: 3rem 0rem;
+}
+
+/* segundo modal */
+.modal-styles-2 {
+    background-color: #c7c7c7;
+    padding: 2rem;
+}
+
+.container-new-account {
+    border-radius: 0.5rem;
+    width: 60vh;
+    background-color: whitesmoke;
+    color: black;
+    padding: 2rem;
+}
+
+.input-group .form-control:first-child, .input-group-addon:first-child {
+    background-color: white;
+}
+
+.black-btn {
+    background-color: black;
     color: white;
 }
 
+.gray-btn {
+    background-color: rgb(165, 165, 165);
+    color: black;
+}
+/*Conductor*/
 
+.dropdown-toggle {
+    width: 80vh;
+}
 
-/* // Extra small devices (portrait phones, less than 576px) */
-        @media (max-width: 575px) {
-            .hero{
-                background-image: url('../assets/images/taxi.jpg');
-                background-repeat: no-repeat;
-                background-position: center 89%; 
-                background-size: cover;
-                height: 68vh;
-                display: flex;
-                align-items:center;
-                justify-content:flex-end;
-            }
-
-            /* Comienza a viajar */
-            .logo-blanco {
-                width: 30px;
-            }
-        }
-
-        
-/* // Small devices (landscape phones, less than 768px) */
-        @media (max-width: 767px) { 
-            .hero{
-                background-image: url('../assets/images/taxi.jpg');
-                background-repeat: no-repeat;
-                background-position: center 89%; 
-                background-size: cover;
-                height: 68vh;
-                display: flex;
-                align-items:center;
-                justify-content:flex-end;
-            }
-
-            /* Comienza a viajar */
-            .logo-blanco {
-                width: 15vh;
-            }
-        }
-        
-
- /* // Medium devices (tablets, less than 992px) */
-        @media (max-width: 991px) { }
-        
-/* // Large devices (desktops, less than 1200px) */
-        @media (max-width: 1199px) { ... }         
+.gray-text {
+    color: gray;
+}

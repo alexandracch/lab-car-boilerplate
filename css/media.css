@@ -1,0 +1,96 @@
+@media (min-width: 992px) { 
+    .view-mobile {
+        display: none;
+    }
+    
+    .view-desktop {
+        display: block;
+    }
+    
+    .hero{
+        background-image: url('../assets/images/taxi.jpg');
+        background-repeat: no-repeat;
+        background-position: center 89%; 
+        background-size: cover;
+        height: 100vh;
+        display: flex;
+        align-items:center;
+        justify-content:flex-end;
+    }
+    
+    
+    .app {
+        background-color: #ffc107;
+        outline: 2px solid white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; 
+        padding: 5vh;
+        display: flex;
+        align-items:center;
+        justify-content:space-around;  
+    }  
+    
+    
+    .jumbotron-app {
+        background-color: brightness(1.2);
+        height: 40vh;
+        display: flex;
+        align-items:center;
+        justify-content:flex-start;
+        
+    }
+    
+    .jumbotron h1 {
+        font-size: 8vh;
+    }
+    .logo-blanco {
+        display: inline-block;
+        width: 15vh;
+        margin: 4vh;
+    }
+    
+    h2 {
+        display: inline-block;
+    }
+
+    .jumbo-tranparent {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    
+    }
+    .container-app {
+        height: 70vh;
+    }
+    
+    .app {
+        outline: 1px solid white;
+        float: left;
+    }
+    
+    .iphone {
+        width: 40vh;
+    }
+    
+    /*footer*/
+    
+    .stores {
+        padding: 1rem;
+        width: 15rem;
+    }
+    
+    li {
+        padding: 1rem;
+    }
+    
+    .flex-down {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+
+    
+
+}   
