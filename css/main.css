@@ -40,6 +40,7 @@ body {
 }
 /* Conduce */
 .container-conduce {
+    height: 60vh;
     color: white;
     background-image: url('../assets/images/conduce.jpg');
     background-repeat: no-repeat;
@@ -279,4 +280,8 @@ a {
 
 .gray-text {
     color: gray;
+}
+
+.flex-item-drive {
+    padding: 2rem 2rem;
 }
